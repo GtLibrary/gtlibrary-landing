@@ -23,6 +23,7 @@
 }
 .right-content .author-img {
     margin-top: 100px;
+    width: 100%;
     z-index: 8;
 }
 .normal-item {

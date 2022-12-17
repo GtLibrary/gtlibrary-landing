@@ -64,6 +64,7 @@
 }
 .mountain-img {
     mix-blend-mode: darken;
+    width: 70%;
 }
 .faq-topimg {
     position: absolute;

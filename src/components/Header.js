@@ -15,12 +15,12 @@ const Header = () => {
         <Container>
             <Navbar.Brand className="header-brand" href="#home">The Great Library</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            {/* <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#link">Link</Nav.Link>
             </Nav>
-            </Navbar.Collapse>
+            </Navbar.Collapse> */}
         </Container>
         </Navbar>
     </div>

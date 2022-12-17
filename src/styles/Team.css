@@ -1,0 +1,76 @@
+.team-area {
+    margin-top: 260px;
+}
+.team-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    font-size: 96px;
+    color: #B95951;
+}
+.team-member-area {
+    margin-top: 300px !important;
+}
+.team-member-item {
+    padding: 0 70px;
+}
+.member-title {
+    font-size: 48px;
+    color: #B95951;
+    text-align: left;
+    font-family: "Crimson Text";
+    text-transform: uppercase;
+}
+.member-description {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Crimson Text";
+    text-align: left;
+}
+.btn-contactus {
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: "Crimson Text" !important;
+    text-transform: uppercase;
+    background-color: #B95951 !important;
+    border-radius: 12px;
+}
+.newsletter-area {
+    margin-top: 250px !important;
+    background-image: url("/public/img/newsletter-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 80px 100px;
+    margin-bottom: 300px !important;
+}
+.signup-area {
+    text-align: left;
+    padding: 60px 100px;
+}
+.signup-area h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Crimson Text";
+    text-transform: capitalize;
+}
+.signup-area p {
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+.btn-subscribe {
+    background-image: url("/public/img/btn-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50% 50%;
+    padding: 10px 25px !important;
+}
+.btn-subscribe:active {
+    border: none;
+}
+.email {
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 0px 25px;
+}
