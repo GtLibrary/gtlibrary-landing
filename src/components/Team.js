@@ -45,8 +45,6 @@ const Team = () => {
                     <div className="col-md-4">
                         <img src="/img/gentleman.png" alt="man-img" className="gentleman"></img>
                     </div>
-
-                    
                 </div>
             </Container>
         </div>
