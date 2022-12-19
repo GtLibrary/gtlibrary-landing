@@ -46,7 +46,7 @@
 }
 .signup-area {
     text-align: left;
-    padding: 60px 100px;
+    padding: 60px 60px;
 }
 .signup-area h2 {
     font-size: 36px;
@@ -73,7 +73,7 @@
     border: none;
 }
 .email-input, .email-input:focus, .email-input:active {
-    width: 350px;
+    max-width: 350px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid grey;
