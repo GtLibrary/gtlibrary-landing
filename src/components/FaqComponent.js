@@ -59,7 +59,7 @@ const FaqComponent = () => {
           </div>
         </Container>
       </div>
-      <div className="roadmap">
+      <div className="roadmap" data-aos="fade-up">
         <h2 className="roadmap-title">Road Map</h2>
         <section id="timeline">
           <div className="tl-item">

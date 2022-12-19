@@ -28,7 +28,7 @@
     margin-top: -5px;
     color: #B95951;
 }
-.feature-description {
+.featurehead-description {
     font-size: 20px;
     font-weight: 400;
     font-family: "Crimson Text";
@@ -56,7 +56,7 @@
     border-radius: 12px;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Crimson Text";
+    font-family: "Crimson Text" !important;
 }
 .mountain-area {
     text-align: right;

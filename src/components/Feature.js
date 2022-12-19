@@ -68,7 +68,7 @@ const Feature = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <button type="button" className="btn btn-books">View Books</button>
+                        <button type="button" className="btn btn-lg btn-books">View Books</button>
                     </div>
                 </div>
             </Container>
