@@ -12,7 +12,8 @@ import 'aos/dist/aos.css';
 function App() {
   useEffect(() => {
     AOS.init({
-      once: true
+      once: true,
+      duration : 1000
     });
   }, [])
   return (

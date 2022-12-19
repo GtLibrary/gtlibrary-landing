@@ -19,3 +19,11 @@
     font-size: 32px !important;
     font-family: "Crimson Text";
 }
+.header-link {
+    font-family: "Leander";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.me-auto.navbar-nav {
+    margin: 0 auto;
+}
