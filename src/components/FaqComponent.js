@@ -8,28 +8,24 @@ const data = {
   title: "FAQ",
   rows: [
     {
-      title: "Lorem ipsum dolor sit amet,",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+      title: "Why The Great Library?",
+      content: `The Great Library's singular mission is to shed light on ignorance, in its many forms.
+      		As civilizations across the globe hang in the balance, the Library seeks to pump wonder
+		into the hearts and minds of all who breathe free air.  
+		At the Library you will see the dead are not gone; they are not forgotten.`,
     },
     {
-      title: "Nunc maximus, magna at ultricies elementum",
-      content:
-        "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+      title: "What Makes Culture Coin's Tokenomics So Stellar?",
+      content: `There are only a set number of Culture Coins ever minted. 
+		The administrators will hold some in reserve, but most are brought into circulation by the community using the ICO and dexes. 
+		The token's internal dex has the unique property that any CC returned will automatically be burned. This means the token is strictly deflationary. 
+		The primary function of Culture Coin is as a gas token--its primary role is to be burned for products and services, like for casting spells in the games--leaving those left in circulation worth more.`,
     },
     {
-      title: "Curabitur laoreet, mauris vel blandit fringilla",
-      content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
-    },
-    {
-      title: "What is the package version",
-      content: <p>current version is 1.2.1</p>,
-    },
+      title: "Why Stake Your Culture Coin?",
+      content: `Staking is the process of burning Culture Coin in exchange for a principal plus interest payment at a later date. 
+		Staking is a mechanism built directly into the Culture Coin token�s underlying smart contract.`,
+    }
   ],
 };
 

@@ -37,7 +37,7 @@ const ContentHeader = () => {
           <div className="col-lg-4 col-md-8">
               <div className="mission-content" data-aos="fade-up">
                 <p className="mission-title">Our Mission</p>
-                <p className="mission-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="mission-description">The Great Library is a platform for digital goods and services. Our goal is to provide authors and creators the highest royalties possible while at the same time lowering the barrier to entry for new and up and coming names. Where Amazon and other publishing houses take upwards of 75 percent, The Great Library sees that content creators receive 95% for all digital products and downloads and up to 10% of all resales. Our goal is to enable creators to continually improve their works so that the value of holding any of the tokens on the site is an attractive proposition. Our KAIZEN approach means new art and illustrations as well as improvements to the texts are always forthcoming. Join us at The Great Library and watch our books and products come alive.</p>
               </div>
           </div>
           <div className="col-lg-4 col-md-2"></div>
