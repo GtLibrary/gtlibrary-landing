@@ -4,6 +4,7 @@ import ContentHeader from "./components/ContentHeader";
 import Feature from "./components/Feature";
 import FaqComponent from "./components/FaqComponent";
 import Team from "./components/Team";
+import SignLetter from "./components/SignLetter";
 import Footer from "./components/Footer";
 import AOS from 'aos';
 import './App.css';
@@ -23,6 +24,7 @@ function App() {
       <Feature />
       <FaqComponent />
       <Team />
+      <SignLetter />
       <Footer />
     </div>
   );

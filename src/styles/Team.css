@@ -13,11 +13,14 @@
 }
 .team-member-item {
     padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .member-title {
     font-size: 48px;
     color: #B95951;
-    text-align: left;
+    text-align: center;
     font-family: "Crimson Text";
     text-transform: uppercase;
 }
@@ -25,7 +28,7 @@
     font-size: 20px;
     font-weight: 400;
     font-family: "Crimson Text";
-    text-align: left;
+    text-align: center;
 }
 .btn-contactus {
     margin: 0 auto;
@@ -37,16 +40,11 @@
     border-radius: 12px;
 }
 .newsletter-area {
-    margin-top: 250px !important;
-    background-image: url("/public/img/newsletter-bg.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 80px 100px;
-    margin-bottom: 300px !important;
+    /* margin-top: 250px !important; */
+    /* background-image: url("/public/img/newsletter-bg.png"); */
 }
 .signup-area {
     text-align: left;
-    padding: 60px 60px;
 }
 .signup-area h2 {
     font-size: 36px;
@@ -87,4 +85,16 @@
     align-items: center;
     width: max-content;
     position: relative;
+}
+.team-member-avatar {
+    min-width: 240px;
+    min-height: 240px;
+    height:auto;
+    border-radius: 50%;
+    background: #dac8ba;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.team-member-avatar img {
+    margin: 0 auto;
 }
