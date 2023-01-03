@@ -50,6 +50,21 @@
     font-weight: 400;
     text-align: left;
 }
+.featurebody-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.featurebody-img-even {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+}
+.featurebody-img img, .featurebody-img-even img {
+    mix-blend-mode: darken;
+}
 .btn-books {
     margin-top: 80px;
     background-color: #B95951 !important;

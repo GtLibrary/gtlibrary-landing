@@ -33,10 +33,15 @@ The Great Library is a free-access platform that allows authors to share their w
                             <p>The most basic of The Great Library's NFTs are book tokens, which give readers the ability to purchase, transfer, or resale ebooks on the site. Where other ebook formats cannot be resold, all NFTs sold through the site can be resold at any time, and are the only way to achieve true ownership of an ebook.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6"></div>
+                    <div className="col-lg-6">
+                    </div>
                 </div>
                 <div className="row feature-item" data-aos="fade-right">
-                    <div className="col-lg-6"></div>
+                    <div className="col-lg-6">
+                        <div className="featurebody-img">
+                            <img src="/img/feature01.png" alt="feature-book"></img>
+                        </div>
+                    </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="featureitem-title">
                             <p>Bookmark Tokens</p>
@@ -56,10 +61,18 @@ The Great Library is a free-access platform that allows authors to share their w
                             <p>Hardcopy versions of the books are limited. The only way to access these limited copies are through the purchase of these burnable Hardcopy Tokens. Once the token is burnt the book will be shipped and the token is then retired and is no longer transferable.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6"></div>
+                    <div className="col-lg-6">
+                        <div className="featurebody-img-even">
+                            <img src="/img/feature02.png" alt="feature-book"></img>
+                        </div>
+                    </div>
                 </div>
                 <div className="row feature-item" data-aos="fade-right">
-                    <div className="col-lg-6"></div>
+                    <div className="col-lg-6">
+                        <div className="featurebody-img">
+                            <img src="/img/feature03.png" alt="feature-book"></img>
+                        </div>
+                    </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="featureitem-title">
                             <p>Culture Coin</p>
