@@ -48,7 +48,7 @@ The Great Library is a free-access platform that allows authors to share their w
                         </div>
                         <div className="featureitem-description">
                             <p>Bookmark Tokens are Image-NFTs and so much more. Like the Book Tokens, Bookmark Tokens can be bought, sold, and transfered using WEB3 technologies. But beyond pointing to illustrations and images from the books they are associated with, Bookmark Tokens act like properties and can be improved using the site's cryptocurrency. These improvements impact the games as well as the AI capabilities tied to the tokens.</p>
-	    		    <p>Bookmark Tokens build on the Book Tokens to form a complete ecosystem.</p>
+	    		            <p>Bookmark Tokens build on the Book Tokens to form a complete ecosystem.</p>
                         </div>
                     </div>
                 </div>

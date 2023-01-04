@@ -8,11 +8,14 @@ const Footer = () => {
     return (
         <div className="footer-body">
           <div className="footer-effect">
-            <img src="/img/footer.png"></img>
+            <img src="/img/footer.png" alt="footer-img"></img>
           </div>
           <div className='footer'>
             <div className="container footer-content">
               <div className="copyright">
+                <div className="footer-logo">
+                  <img src="/img/book.png" alt="logo"></img> The Great Library
+                </div>
                 Copyright greatlibrary.io 2021-2022. <br/>
                 All rights reserved.
               </div>

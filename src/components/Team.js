@@ -7,7 +7,7 @@ const Team = () => {
     return (
         <div className="team-area">
             <Container>
-                <div className="row" data-aos="fade-up">
+                <div className="row teamarea-body" data-aos="fade-up">
                     <div className="col-md-12">
                         <p className="team-title">Team</p>
                     </div>

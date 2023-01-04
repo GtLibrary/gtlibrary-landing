@@ -1,5 +1,5 @@
 .team-area {
-    margin-top: 260px;
+    margin-top: 260px !important;
 }
 .team-title {
     text-align: center;
@@ -9,7 +9,7 @@
     color: #B95951;
 }
 .team-member-area {
-    margin-top: 300px !important;
+    margin-top: 100px !important;
 }
 .team-member-item {
     padding: 0 70px;

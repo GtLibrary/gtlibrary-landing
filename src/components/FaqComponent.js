@@ -136,6 +136,10 @@ const FaqComponent = () => {
           </div>
         </section>
       </div>
+      <div className="team-topeffect">
+          <img src="/img/faq-bottom.png" className="top-effect-img" alt="top-effect"></img>
+          <img src="/img/spider.png" className="spider-effect" alt="spider"></img>
+      </div>
     </div>
   );
 };

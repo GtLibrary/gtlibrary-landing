@@ -6,3 +6,19 @@
     margin-top: 100px !important;
     min-height: 800px;
 }
+.btn-subscribe {
+    font-family: 'Leander' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    text-transform: capitalize !important;
+}
+.email-input {
+    font-family: 'Leander' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    text-transform: capitalize !important;
+}

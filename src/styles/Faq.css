@@ -145,3 +145,21 @@
 .img-area4 {
     background-image: url(https://placeimg.com/800/800/nature)
 }
+.team-topeffect {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.top-effect-img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.spider-effect {
+    position: absolute;
+    width: 20%;
+    right: 0;
+    top: -150px;
+    z-index: -1;
+}
