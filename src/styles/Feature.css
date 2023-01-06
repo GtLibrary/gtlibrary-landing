@@ -3,10 +3,17 @@
 }
 .featurehead-img {
     width: 100%;
-    padding: 0 20%;
+    padding: 0 10% 10% 10%;
 }
 .featurehead-img img {
     width: 100%;
+    padding: 15%;
+}
+.absolute {
+    width: 90% !important;
+    position: absolute;
+    top: 0;
+    left: 10% !important;
 }
 .featurehead-content {
     padding: 10% 40% 10% 0;

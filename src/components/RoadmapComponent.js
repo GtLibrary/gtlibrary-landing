@@ -1,60 +1,11 @@
-import React, { useEffect, useState } from "react";
-import Faq from "react-faq-component";
+import React from "react";
 import Container from "react-bootstrap/Container";
 // import { Parallax } from "react-scroll-parallax";
-import "../styles/Faq.css";
+import "../styles/Roadmap.css";
 
-const data = {
-  title: "FAQ",
-  rows: [
-    {
-      title: "Why The Great Library?",
-      content: `The Great Library's singular mission is to shed light on ignorance, in its many forms.
-      		As civilizations across the globe hang in the balance, the Library seeks to pump wonder
-		into the hearts and minds of all who breathe free air.  
-		At the Library you will see the dead are not gone; they are not forgotten.`,
-    },
-    {
-      title: "What Makes Culture Coin's Tokenomics So Stellar?",
-      content: `There are only a set number of Culture Coins ever minted. 
-		The administrators will hold some in reserve, but most are brought into circulation by the community using the ICO and dexes. 
-		The token's internal dex has the unique property that any CC returned will automatically be burned. This means the token is strictly deflationary. 
-		The primary function of Culture Coin is as a gas token--its primary role is to be burned for products and services, like for casting spells in the games--leaving those left in circulation worth more.`,
-    },
-    {
-      title: "Why Stake Your Culture Coin?",
-      content: `Staking is the process of burning Culture Coin in exchange for a principal plus interest payment at a later date. 
-		Staking is a mechanism built directly into the Culture Coin token�s underlying smart contract.`,
-    }
-  ],
-};
-
-const styles = {
-  bgColor: "black",
-  titleTextColor: "white",
-  rowTitleColor: "white",
-  rowContentColor: "grey",
-  arrowColor: "yellow",
-};
-
-const config = {
-  animate: true,
-  // arrowIcon: "V",
-  // tabFocus: true
-};
-
-const FaqComponent = () => {
+const RoadmapComponent = () => {
   return (
     <div className="faq-area">
-      <div className="faq">
-        <Container>
-          <div className="row">
-            <div className="col-md-12" data-aos="fade-up">
-              <Faq data={data} styles={styles} config={config} />
-            </div>
-          </div>
-        </Container>
-      </div>
       <div className="roadmap" data-aos="fade-up">
         <h2 className="roadmap-title">Road Map</h2>
         <section id="timeline">
@@ -144,4 +95,4 @@ const FaqComponent = () => {
   );
 };
 
-export default FaqComponent;
+export default RoadmapComponent;

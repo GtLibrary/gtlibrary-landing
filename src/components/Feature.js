@@ -1,4 +1,6 @@
 import React from "react";
+import Atropos from "atropos/react";
+import "atropos/atropos.css";
 import Container from "react-bootstrap/Container";
 // import { Parallax } from "react-scroll-parallax";
 import "../styles/Feature.css"
@@ -9,8 +11,23 @@ const Feature = () => {
             <Container fluid>
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
-                        <div className="featurehead-img" data-aos="fade-right">
-                            <img src="/img/feature.png" className="feature-img" alt="feature logo"></img>
+                        <div className="">
+                            <Atropos shadow={false} highlight={false} className="atropos featurehead-img" data-aos="fade-right">
+                                <img
+                                    src='/img/img-line.png'
+                                    data-atropos-offset="8"
+                                    alt=''
+                                    draggable={false}
+                                />
+                                <img
+                                    src='/img/books.png'
+                                    data-atropos-offset="19"
+                                    alt=''
+                                    draggable={false}
+                                    className="absolute"
+                                />
+                            </Atropos>
+                            {/* <img src="/img/feature.png" className="feature-img" alt="feature logo"></img> */}
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
@@ -34,12 +51,15 @@ The Great Library is a free-access platform that allows authors to share their w
                         </div>
                     </div>
                     <div className="col-lg-6">
+                        <div className="featurebody-img-even">
+                            <img src="/img/feature01.png" alt="feature-book"></img>
+                        </div>
                     </div>
                 </div>
                 <div className="row feature-item" data-aos="fade-right">
                     <div className="col-lg-6">
                         <div className="featurebody-img">
-                            <img src="/img/feature01.png" alt="feature-book"></img>
+                            <img src="/img/feature02.png" alt="feature-book"></img>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
@@ -63,14 +83,14 @@ The Great Library is a free-access platform that allows authors to share their w
                     </div>
                     <div className="col-lg-6">
                         <div className="featurebody-img-even">
-                            <img src="/img/feature02.png" alt="feature-book"></img>
+                            <img src="/img/feature03.png" alt="feature-book"></img>
                         </div>
                     </div>
                 </div>
                 <div className="row feature-item" data-aos="fade-right">
                     <div className="col-lg-6">
                         <div className="featurebody-img">
-                            <img src="/img/feature03.png" alt="feature-book"></img>
+                            <img src="/img/feature04.png" alt="feature-book"></img>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">

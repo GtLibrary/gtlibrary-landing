@@ -5,6 +5,7 @@ import { Fade } from "react-awesome-reveal";
 import "../styles/ContentHeader.css"
 
 const ContentHeader = () => {
+  
   return (
     <div className="content-header">
       <div className="bg-image">
@@ -12,23 +13,27 @@ const ContentHeader = () => {
       </div>
       <Container fluid>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <Fade direction="up" triggerOnce={true}>
-              <div className="left-content">
-                <p className="normal-item">Books</p>
-                <p className="normal-item">reimagined for</p>
+              <div className="top-content">
+                <p className="normal-item">Books reimagined for</p>
                 <p className="transition-item">modern life.</p>
                 <button type="button" className="btn btn-viewbook">View Books</button>
               </div>
             </Fade>
           </div>
-          <div className="col-md-6">
-            <Fade direction="right" triggerOnce={true}>
-              <Parallax translateY={[50, -50]} speed={2} tagOuter="div">
-              <div className="right-content">
-                <img src="/img/author.png" className="author-img" alt="author"></img>
+          <div className="col-md-12">
+            <Fade direction="up" triggerOnce={true}>
+              <div className="bottom-content">
+                <div className="image-content">
+                  <Parallax translateX={["0%", "-100%"]} speed={10}>
+                    <img src="/img/books-hero-left.png" className="left-img" alt="left"></img>
+                  </Parallax>
+                  <Parallax translateX={["0%", "100%"]} speed={10}>
+                    <img src="/img/books-hero-right.png" className="right-img" alt="right"></img>
+                  </Parallax>
+                </div>
               </div>
-              </Parallax>
             </Fade>
           </div>
         </div>

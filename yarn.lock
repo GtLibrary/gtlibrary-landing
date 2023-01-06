@@ -2771,6 +2771,11 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
+atropos@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/atropos/-/atropos-1.0.1.tgz#6c241f0963fd72f669be80c01fd4f8b15f13927d"
+  integrity sha512-MJwmKQ6OOM5Sbf8aEt2LasIXxKwuknQtaAplrlVcUlmGH63V+dAdQVGOPbgYJlhX74LgSifa0kbLvc6jyPLegg==
+
 autoprefixer@^10.4.13:
   version "10.4.13"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.13.tgz#b5136b59930209a321e9fa3dca2e7c4d223e83a8"
@@ -7746,7 +7751,7 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-scroll-parallax@^3.3.2:
+react-scroll-parallax@3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.3.2.tgz#e6acae262c22d44244739fc9486f11a43f199fff"
   integrity sha512-mLgcLqyFhrIp31gLjz11yYmWEwS8NJoOoCZ15ZFXPOcpPQK8R+jZfeuO59Trm9bReok/iDUyx3ZyCCZjkxj37Q==

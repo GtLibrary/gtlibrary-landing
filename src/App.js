@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import Header from "./components/Header";
 import ContentHeader from "./components/ContentHeader";
 import Feature from "./components/Feature";
-import FaqComponent from "./components/FaqComponent";
+import RoadmapComponent from "./components/RoadmapComponent";
 import Team from "./components/Team";
 import SignLetter from "./components/SignLetter";
 import Footer from "./components/Footer";
@@ -22,7 +22,7 @@ function App() {
       <Header />
       <ContentHeader />
       <Feature />
-      <FaqComponent />
+      <RoadmapComponent />
       <Team />
       <SignLetter />
       <Footer />

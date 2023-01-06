@@ -71,7 +71,7 @@
     border: none;
 }
 .email-input, .email-input:focus, .email-input:active {
-    max-width: 350px;
+    width: 100%;
     height: 40px;
     border-radius: 20px;
     border: 1px solid grey;
@@ -83,7 +83,7 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
-    width: max-content;
+    width: 100%;
     position: relative;
 }
 .team-member-avatar {
@@ -97,4 +97,36 @@
 }
 .team-member-avatar img {
     margin: 0 auto;
+}
+.faq {
+    padding: 20% 25%;
+    margin-top: -2px;
+}
+.faq-title {
+    justify-content: center !important;
+    border: none !important;
+}
+.faq-title h2{
+    font-size: 96px !important;
+    font-weight: 600;
+    font-family: "Crimson Text";
+    color: #B95951 !important;
+}
+.faq-body {
+    font-family: "Crimson Text";
+    font-size: 24px;
+}
+.faq-row-wrapper {
+    background-color: transparent !important;
+}
+
+.row-content-text {
+    text-align: left;
+    font-size: 20px !important;
+    font-family: "Crimson Text";
+}
+.row-title-text {
+    font-size: 24px;
+    font-family: "Crimson Text";
+    text-align: left;
 }

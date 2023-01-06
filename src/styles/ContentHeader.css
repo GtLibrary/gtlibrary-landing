@@ -11,40 +11,65 @@
     height: 120%;
     z-index: 0;
 }
-.left-content {
+.top-content {
     z-index: 8;
-    text-align: left;
-    margin-top: 200px;
-    padding-left: 150px;
-    line-height: 6rem;
+    text-align: center;
+    margin-top: 50px;
 }
-.right-content {
+.bottom-content {
+    z-index: 8;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.image-content {
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 800px;
+    aspect-ratio: 1 / 1;
+}
+.mission-content {
+
+}
+.bottom-content .left-img {
+    position: absolute;
+    inset: 0;
     z-index: 8;
 }
-.right-content .author-img {
-    margin-top: 100px;
-    width: 100%;
+.bottom-content .right-img {
+    position: absolute;
+    inset: 0;
     z-index: 8;
 }
 .normal-item {
-    font-size: 108px;
-    color: white;
+    font-size: 4vw;
+    color: #D9D9D9;
     font-family: "Crimson Text";
 }
 .transition-item {
-    font-size: 128px;
-    color: white;
-    transform: rotate(-2.5deg);
-    font-family: "Leander";
+    font-size: 12vw;
+    color: #D9D9D9;
+    font-family: "Crimson Text";
 }
 .btn-viewbook {
     background-color: #F9D54C !important;
     font-family: "Crimson Text" !important;
     text-transform: uppercase;
     border-radius: 12px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 20px;
     padding: 20px 36px;
+}
+.mission-obj {
+    position: relative;
+    top: 0;
+    width: 40%;
+    margin: 0 auto;
 }
 .mission-content {
     display: flex;
