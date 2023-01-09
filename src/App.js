@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import Header from "./components/Header";
 import ContentHeader from "./components/ContentHeader";
 import Feature from "./components/Feature";
