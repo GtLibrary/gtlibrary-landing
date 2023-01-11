@@ -8,29 +8,26 @@ import "../styles/Feature.css"
 const Feature = () => {
     return (
         <div className="feature-collection">
-            <Container fluid>
+            <Container>
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
-                        <div className="">
-                            <Atropos shadow={false} highlight={false} className="atropos featurehead-img" data-aos="fade-right">
-                                <img
-                                    src='/img/img-line.png'
-                                    data-atropos-offset="8"
-                                    alt=''
-                                    draggable={false}
-                                />
-                                <img
-                                    src='/img/books.png'
-                                    data-atropos-offset="19"
-                                    alt=''
-                                    draggable={false}
-                                    className="absolute"
-                                />
-                            </Atropos>
-                            {/* <img src="/img/feature.png" className="feature-img" alt="feature logo"></img> */}
-                        </div>
+                        <Atropos shadow={false} highlight={false} className="atropos featurehead-img" data-aos="fade-right">
+                            <img
+                                src='/img/img-line.png'
+                                data-atropos-offset="8"
+                                alt=''
+                                draggable={false}
+                            />
+                            <img
+                                src='/img/books.png'
+                                data-atropos-offset="19"
+                                alt=''
+                                draggable={false}
+                                className="absolute"
+                            />
+                        </Atropos>
                     </div>
-                    <div className="col-lg-6 col-md-12">
+                    <div className="col-lg-6 col-md-12 featureheader-content">
                         <div className="featurehead-content" data-aos="fade-left">
                             <p className="featurehead-title">What is The Great Library? It's a community of readers and authors.</p>
                             <p className="featurehead-description">The Great Library is a community of readers, authors, and artists.
@@ -42,7 +39,7 @@ The Great Library is a free-access platform that allows authors to share their w
             </Container>
             <Container>
                 <div className="row feature-item" data-aos="fade-left">
-                    <div className="col-lg-6 col-md-12">
+                    <div className="col-lg-6 col-md-12 order-lg-1 order-md-2">
                         <div className="featureitem-title">
                             <p>Book Tokens</p>                            
                         </div>
@@ -50,7 +47,7 @@ The Great Library is a free-access platform that allows authors to share their w
                             <p>The most basic of The Great Library's NFTs are book tokens, which give readers the ability to purchase, transfer, or resale ebooks on the site. Where other ebook formats cannot be resold, all NFTs sold through the site can be resold at any time, and are the only way to achieve true ownership of an ebook.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 order-md-1 order-lg-2">
                         <div className="featurebody-img-even">
                             <img src="/img/feature01.png" alt="feature-book"></img>
                         </div>
@@ -73,7 +70,7 @@ The Great Library is a free-access platform that allows authors to share their w
                     </div>
                 </div>
                 <div className="row feature-item" data-aos="fade-left">
-                    <div className="col-lg-6 col-md-12">
+                    <div className="col-lg-6 col-md-12 order-md-2 order-lg-1">
                         <div className="featureitem-title">
                             <p>Hardcopy Tokens</p>
                         </div>
@@ -81,7 +78,7 @@ The Great Library is a free-access platform that allows authors to share their w
                             <p>Hardcopy versions of the books are limited. The only way to access these limited copies are through the purchase of these burnable Hardcopy Tokens. Once the token is burnt the book will be shipped and the token is then retired and is no longer transferable.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 order-md-1 order-lg-2">
                         <div className="featurebody-img-even">
                             <img src="/img/feature03.png" alt="feature-book"></img>
                         </div>

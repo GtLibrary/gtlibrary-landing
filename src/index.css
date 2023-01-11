@@ -12,8 +12,5 @@ body {
   font-family: "Crimson Text";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/public/img/bg.png");
-  background-repeat: repeat-y;
-  background-size: cover;
 }
 

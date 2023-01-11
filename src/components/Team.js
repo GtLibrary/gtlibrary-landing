@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import "../styles/Team.css"
 
 const data = {
-    title: "FAQ",
+    // title: "FAQ",
     rows: [
       {
         title: "Why The Great Library?",
@@ -81,8 +81,12 @@ const Team = () => {
             <div className="faq">
                 <Container>
                     <div className="row">
-                        <div className="col-md-12" data-aos="fade-up">
+                        <h2 className="faq-title">FAQ</h2>
+                        <div className="col-lg-9" data-aos="fade-up">
                             <Faq data={data} styles={styles} config={config} />
+                        </div>
+                        <div className="col-lg-3 faq-img">
+                            <img className="gentleman" alt="gentle man" src="/img/gentleman.png"></img>
                         </div>
                     </div>
                 </Container>

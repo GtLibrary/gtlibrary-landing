@@ -13,7 +13,7 @@
 }
 .top-content {
     position: relative;
-    z-index: 8;
+    z-index: 10;
     text-align: center;
     margin-top: 50px;
 }
@@ -41,11 +41,13 @@
     position: relative;
     inset: 0;
     z-index: 8;
+    width: 70vw;
 }
 .bottom-content .right-img {
     position: relative;
     inset: 0;
     z-index: 8;
+    width: 70vw;
 }
 .normal-item {
     font-size: 4vw;
@@ -66,6 +68,11 @@
     font-size: 20px;
     padding: 20px 36px;
 }
+.btn-viewbook:hover {
+    background-color: #000000 !important;
+    color: #F9D54C !important;
+    border: 1px solid #F9D54C !important;
+}
 .mission-obj {
     position: relative;
     top: 0;
@@ -78,9 +85,16 @@
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    position: relative;
+}
+.mission-top {
+    position: absolute;
+    width: 20%;
+    top: -20%;
+    right: -15%;
 }
 .mission-title {
-    font-size: 96px;
+    font-size: 7vw;
     font-family: "Crimson Text";
     text-transform: uppercase;
     color: white;

@@ -5,20 +5,19 @@
     text-align: center;
     text-transform: uppercase;
     font-family: "Crimson Text";
-    font-size: 96px;
+    font-size: 8vw;
     color: #B95951;
 }
 .team-member-area {
     margin-top: 100px !important;
 }
 .team-member-item {
-    padding: 0 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .member-title {
-    font-size: 48px;
+    font-size: 4vw;
     color: #B95951;
     text-align: center;
     font-family: "Crimson Text";
@@ -39,9 +38,9 @@
     background-color: #B95951 !important;
     border-radius: 12px;
 }
-.newsletter-area {
-    /* margin-top: 250px !important; */
-    /* background-image: url("/public/img/newsletter-bg.png"); */
+.btn-contactus:hover {
+    background-color: black !important;
+    color: #B95951 !important;
 }
 .signup-area {
     text-align: left;
@@ -99,15 +98,15 @@
     margin: 0 auto;
 }
 .faq {
-    padding: 20% 25%;
+    padding-top: 20%;
     margin-top: -2px;
 }
 .faq-title {
     justify-content: center !important;
     border: none !important;
 }
-.faq-title h2{
-    font-size: 96px !important;
+.faq-title {
+    font-size: 8vw !important;
     font-weight: 600;
     font-family: "Crimson Text";
     color: #B95951 !important;
@@ -129,4 +128,7 @@
     font-size: 24px;
     font-family: "Crimson Text";
     text-align: left;
+}
+.faq-img {
+    text-align: right;
 }

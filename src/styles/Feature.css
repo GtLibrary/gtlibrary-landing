@@ -1,13 +1,20 @@
 .feature-collection {
-    margin-top: 400px;
+    padding-top: 400px;
+    background-image: url("/public/img/bg.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    /* background-size: cover; */
 }
 .featurehead-img {
     width: 100%;
-    padding: 0 10% 10% 10%;
+}
+.featureheader-content {
+    display: flex;
+    align-items: center;
 }
 .featurehead-img img {
     width: 100%;
-    padding: 15%;
+    padding: 10%;
 }
 .absolute {
     width: 90% !important;
@@ -16,7 +23,7 @@
     left: 10% !important;
 }
 .featurehead-content {
-    padding: 10% 40% 10% 0;
+    /* padding: 10% 40% 10% 0; */
     text-align: left;
 }
 .featurehead-title {
@@ -80,6 +87,10 @@
     text-transform: uppercase;
     font-family: "Crimson Text" !important;
 }
+.btn-books:hover {
+    background-color: black !important;
+    color: #B95951 !important;
+}
 .mountain-area {
     text-align: right;
     position: relative;
@@ -93,4 +104,14 @@
     bottom: 0;
     left: 0;
     width: 100%;
+}
+@media screen and (min-width: 1024px) {
+    .featureheader-content {
+        padding: 0 5% !important;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .featurebody-img, .featurebody-img-even {
+        justify-content: center !important;
+    }
 }

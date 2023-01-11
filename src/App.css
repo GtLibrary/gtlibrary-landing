@@ -37,3 +37,8 @@
     transform: rotate(360deg);
   }
 }
+.downitems {
+  background-image: url("/public/img/downbg.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}

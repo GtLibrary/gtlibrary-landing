@@ -63,10 +63,11 @@ const ContentHeader = () => {
           </ScrollPage>
           <ScrollPage page={2}>
             <div className="row">
-              <div className="col-lg-4 col-md-2"></div>
-              <div className="col-lg-4 col-md-8">
+              <div className="col-lg-4"></div>
+              <div className="col-lg-4 col-md-12">
                 <Animator animation={batch(Fade(), MoveOut(), Sticky())}>
                   <div className="mission-content">
+                    <img src="/img/mission-top.png" alt="mission effect" className="mission-top"></img>
                     <p className="mission-title">Our Mission</p>
                     <p className="mission-description">
                       The Great Library is a platform for digital goods and
@@ -87,7 +88,7 @@ const ContentHeader = () => {
                   </div>
                 </Animator>
               </div>
-              <div className="col-lg-4 col-md-2"></div>
+              <div className="col-lg-4"></div>
             </div>
           </ScrollPage>
         </ScrollContainer>

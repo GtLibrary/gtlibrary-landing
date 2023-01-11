@@ -22,9 +22,11 @@ function App() {
       <Header />
       <ContentHeader />
       <Feature />
-      <RoadmapComponent />
-      <Team />
-      <SignLetter />
+      <div className="downitems">
+        <RoadmapComponent />
+        <Team />
+        <SignLetter />
+      </div>
       <Footer />
     </div>
   );
