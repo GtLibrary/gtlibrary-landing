@@ -8,7 +8,7 @@ const RoadmapComponent = () => {
     <div className="faq-area">
       <div className="roadmap" data-aos="fade-up">
         <h2 className="roadmap-title">Road Map</h2>
-        
+        <div className="roadmap-content"></div>
       </div>
       <div className="team-topeffect">
           <img src="/img/faq-bottom.png" className="top-effect-img" alt="top-effect"></img>

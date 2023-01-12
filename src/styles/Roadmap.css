@@ -25,5 +25,10 @@
     width: 20%;
     right: 0;
     top: -150px;
-    z-index: -1;
+}
+.roadmap-content {
+    background-image: url("/public/img/roadmapbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
