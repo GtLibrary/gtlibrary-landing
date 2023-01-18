@@ -2,7 +2,7 @@ import React from "react";
 import Atropos from "atropos/react";
 import "atropos/atropos.css";
 import Container from "react-bootstrap/Container";
-// import { Parallax } from "react-scroll-parallax";
+import { Parallax } from "react-scroll-parallax";
 import "../styles/Feature.css"
 
 const Feature = () => {
@@ -39,7 +39,7 @@ The Great Library is a free-access platform that allows authors to share their w
             </Container>
             <Container>
                 <div className="row feature-item" data-aos="fade-left">
-                    <div className="col-lg-6 col-md-12 order-lg-1 order-md-2">
+                    <div className="col-lg-6 col-md-12 order-sm-2 order-md-2 order-lg-1">
                         <div className="featureitem-title">
                             <p>Book Tokens</p>                            
                         </div>
@@ -70,7 +70,7 @@ The Great Library is a free-access platform that allows authors to share their w
                     </div>
                 </div>
                 <div className="row feature-item" data-aos="fade-left">
-                    <div className="col-lg-6 col-md-12 order-md-2 order-lg-1">
+                    <div className="col-lg-6 col-md-12 order-sm-2 order-md-2 order-lg-1">
                         <div className="featureitem-title">
                             <p>Hardcopy Tokens</p>
                         </div>
@@ -78,7 +78,7 @@ The Great Library is a free-access platform that allows authors to share their w
                             <p>Hardcopy versions of the books are limited. The only way to access these limited copies are through the purchase of these burnable Hardcopy Tokens. Once the token is burnt the book will be shipped and the token is then retired and is no longer transferable.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-md-1 order-lg-2">
+                    <div className="col-lg-6 order-sm-1 order-md-1 order-lg-2">
                         <div className="featurebody-img-even">
                             <img src="/img/feature03.png" alt="feature-book"></img>
                         </div>
@@ -106,7 +106,9 @@ The Great Library is a free-access platform that allows authors to share their w
                 </div>
             </Container>
             <div className="mountain-area" data-aos="fade-up">
-                <img src="/img/mountain.png" className="mountain-img" alt="mountain"></img>
+                <Parallax scale={[1, 1.3]}>
+                    <img src="/img/mountain.png" className="mountain-img" alt="mountain"></img>
+                </Parallax>
                 <img src="/img/faq-top.png" alt="faq-top" className="faq-topimg"></img>
             </div>
         </div>
