@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import "../styles/ContentHeader.css";
 
@@ -18,6 +18,8 @@ import {
 } from "react-scroll-motion";
 
 const ContentHeader = () => {
+  const [loadingleft, setLoadingleft] = useState(true);
+  const [loadingright, setLoadingright] = useState(true);
   return (
     <div className="content-header">
       <div className="bg-image">

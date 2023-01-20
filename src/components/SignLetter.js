@@ -7,8 +7,8 @@ const SignLetter = () => {
     return (
         <div className="signletter-area">
             <div className="row newsletter-area" data-aos="fade-up">
-                <div className="col-md-8"></div>
-                <div className="col-md-4">
+                <div className="col-md-6 col-lg-8"></div>
+                <div className="col-md-6 col-lg-4">
                     <div className="signup-area">
                         <h2>Sign up to our newsletter</h2>
                         <p>Receive all the latest Library news</p>

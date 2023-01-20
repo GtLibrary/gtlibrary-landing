@@ -39,7 +39,7 @@ The Great Library is a free-access platform that allows authors to share their w
             </Container>
             <Container>
                 <div className="row feature-item" data-aos="fade-left">
-                    <div className="col-lg-6 col-md-12 order-sm-2 order-md-2 order-lg-1">
+                    <div className="col-lg-6 col-md-12 order-xxs-2 order-xs-2 order-sm-2 order-md-2 order-lg-1">
                         <div className="featureitem-title">
                             <p>Book Tokens</p>                            
                         </div>
@@ -47,7 +47,7 @@ The Great Library is a free-access platform that allows authors to share their w
                             <p>The most basic of The Great Library's NFTs are book tokens, which give readers the ability to purchase, transfer, or resale ebooks on the site. Where other ebook formats cannot be resold, all NFTs sold through the site can be resold at any time, and are the only way to achieve true ownership of an ebook.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-md-1 order-lg-2">
+                    <div className="col-lg-6 order-xxs-1 order-xs-1 order-sm-1 order-md-1 order-lg-2">
                         <div className="featurebody-img-even">
                             <img src="/img/feature01.png" alt="feature-book"></img>
                         </div>
@@ -106,7 +106,7 @@ The Great Library is a free-access platform that allows authors to share their w
                 </div>
             </Container>
             <div className="mountain-area" data-aos="fade-up">
-                <Parallax scale={[1, 1.3]}>
+                <Parallax scale={[1, 1.9]}>
                     <img src="/img/mountain.png" className="mountain-img" alt="mountain"></img>
                 </Parallax>
                 <img src="/img/faq-top.png" alt="faq-top" className="faq-topimg"></img>
