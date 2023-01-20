@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <Container>
           <Navbar className="nav-header" expand="lg">
-              <Navbar.Brand className="header-brand" href="#home"><img src="/img/book.png" alt="logo"></img> The Great Library</Navbar.Brand>
+              <Navbar.Brand className="header-brand" href="/"><img src="/img/book.png" alt="logo"></img> The Great Library</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
