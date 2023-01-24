@@ -121,10 +121,10 @@ const Team = () => {
                     <div className="col-md-6">
                         <div className="team-member-item" data-aos="fade-right">
                             <div className="team-member-avatar">
-                                <img src="/img/ms-medium.png" width="300" alt="team member avatar"></img>
+                                <img src="/img/ah-medium.webp" width="300" alt="team member avatar"></img>
                             </div>
-                            <h3 className="member-title">Magic Smart</h3>
-                            <p className="member-description">Magic Smart – Smart Contract Developer: Magic is a senior blockchain engineer, with many years of experience and talent skill. He was born in Japan. He has 6+ years of experience in web development and 5+ years of experience in Blockchain development giving his deep knowledge about the web and smart contracts. After graduation, he entered several regular companies in Japan & Canada. He has worked on Flow, Algorand, Ethereum, CosWasm, Substrate, Polkadot and Solana technology. In 2017, he focused on blockchain technology and started to research it.</p>
+                            <h3 className="member-title">Akira Humada</h3>
+                            <p className="member-description">Akira Humada – Smart Contract Developer: Akira is a senior blockchain engineer, with many years of experience and talent skill. He was born in Japan. He has 6+ years of experience in web development and 5+ years of experience in Blockchain development giving his deep knowledge about the web and smart contracts. After graduation, he entered several regular companies in Japan & Canada. He has worked on Flow, Algorand, Ethereum, CosWasm, Substrate, Polkadot and Solana technology. In 2017, he focused on blockchain technology and started to research it.</p>
                         </div>
                     </div>
 
