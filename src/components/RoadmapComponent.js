@@ -75,29 +75,29 @@ const RoadmapComponent = () => {
             <div className="roadmap-item1">
               <div className="rm-item-content">
                 <img src="/img/circle1.png" alt="quater1"></img>
-                <h3>Step 1</h3>
-                <p>Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+                <h3>2022</h3>
+                <p>Development of novel smart contracts and growth of The Great Library team from two people to ten after the launch of the legacy site.</p>
               </div>
             </div>
             <div className="roadmap-item2">
               <div className="rm-item-content">
                 <img src="/img/circle2.png" alt="quater1"></img>
-                <h3>Step 2</h3>
-                <p>Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+                <h3>2023</h3>
+                <p>Initial Coin Offering (ICO) of Culture Coin and launch of the Library's validated network. Implementation of revenue-generating AI-based author tools.</p>
               </div>
             </div>
             <div className="roadmap-item3">
               <div className="rm-item-content">
                 <img src="/img/circle3.png" alt="quater1"></img>
-                <h3>Step 3</h3>
-                <p>Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+                <h3>2024</h3>
+                <p>Launch of the first Smart Book with integrated game and start of the Library's population.</p>
               </div>
             </div>
             <div className="roadmap-item4">
               <div className="rm-item-content">
                 <img src="/img/circle4.png" alt="quater1"></img>
-                <h3>Step 4</h3>
-                <p>Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+                <h3>2025</h3>
+                <p>Signing of the first publishing house and import of their IP. Mass marketing of The Great Library's integrated properties.</p>
               </div>
             </div>
           </div>
