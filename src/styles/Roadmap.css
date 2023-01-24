@@ -48,12 +48,14 @@
 .roadmap-item1 p {
     color: #BABABA;
 }
+.roadmap-item1 img {
+    left: -90px
+}
 .rm-item-content {
     position: relative;
 }
 .rm-item-content img {
     position: absolute;
-    left: -90px;
     top: -100px;
     width: 150px;
 }
@@ -74,6 +76,9 @@
 .roadmap-item2 p {
     color: #BABABA;
 }
+.roadmap-item2 img {
+    right: -90px
+}
 
 .roadmap-item3 {
     position: absolute;
@@ -91,6 +96,9 @@
 .roadmap-item3 p {
     color: #BABABA;
 }
+.roadmap-item3 img {
+    left: -90px
+}
 
 .roadmap-item4 {
     position: absolute;
@@ -107,6 +115,9 @@
 }
 .roadmap-item4 p {
     color: #BABABA;
+}
+.roadmap-item4 img {
+    right: -90px
 }
 @media screen and (max-width: 768px) {
     .roadmap-item1 {

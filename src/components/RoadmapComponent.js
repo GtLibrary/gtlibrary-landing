@@ -4,8 +4,19 @@ import "../styles/Roadmap.css";
 
 const RoadmapComponent = () => {
   const markRef = useRef();
-  // const componentRef = useRef(null);
+  const componentRef = useRef();
   const [width, setWidth] = useState(0);
+  const [currenttop, setcurrenttop] = useState();
+  // This function calculate X and Y
+  const getPosition = () => {
+    const top = componentRef.current.offsetTop;
+    setcurrenttop(top);
+  };
+
+  // Get the position of the red box in the beginning
+  useEffect(() => {
+    getPosition();
+  }, []);
 
   useEffect(() => {
     function handleResize() {
@@ -24,13 +35,13 @@ const RoadmapComponent = () => {
   useEffect(() => {
       const path = document.getElementById('roadline');
       const pathLength = path.getTotalLength();
-      // const currentDivTop = componentRef.current.offsetTop;
+      const currentDivTop = currenttop;
       path.style.strokeDasharray = pathLength + ', ' + pathLength;
       path.style.strokeDashoffset = pathLength;
       path.getBoundingClientRect();
       window.addEventListener("scroll", function (e) {
-          // const scrollPercentage = (document.documentElement.scrollTop - currentDivTop) / pathLength * 2.5;
-          const scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 10.9;
+          const scrollPercentage = (document.documentElement.scrollTop - currentDivTop) / pathLength * 2;
+          // const scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 10.9;
           
           const drawLength = pathLength * scrollPercentage;
           path.style.strokeDashoffset = pathLength - drawLength;
@@ -42,8 +53,8 @@ const RoadmapComponent = () => {
           // }
       });
   })
-  return (// ref={componentRef}
-    <div className="faq-area">
+  return (//
+    <div className="faq-area" ref={componentRef}>
       { width > 768 ? (
         <div className="roadmap" data-aos="fade-up">
           <h2 className="roadmap-title">Road Map</h2>
