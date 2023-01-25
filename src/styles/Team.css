@@ -18,7 +18,7 @@
     margin-top: 30px;
 }
 .member-title {
-    font-size: 4vw;
+    font-size: 3vw;
     color: #B95951;
     text-align: center;
     font-family: "Crimson Text";
@@ -97,6 +97,7 @@
 }
 .team-member-avatar img {
     margin: 0 auto;
+    border-radius: 50%;
 }
 .faq {
     padding-top: 20%;
