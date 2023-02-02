@@ -34,8 +34,12 @@ const ContentHeader = () => {
                 <div className="top-content" data-aos="fade-up">
                   <p className="normal-item">Books reimagined for</p>
                   <p className="transition-item">modern life.</p>
-                  <button type="button" className="btn btn-viewbook">
-                    View Books
+                  <button type="button" className="btn btn-viewbook" 
+	  		onClick={(e) => {
+      				e.preventDefault();
+      				window.location.href='https://books.greatlibrary.io';
+			}}
+                    >View Books
                   </button>
                 </div>
               </div>

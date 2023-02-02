@@ -101,7 +101,12 @@ The Great Library is a free-access platform that allows authors to share their w
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <button type="button" className="btn btn-lg btn-books">View Books</button>
+                        <button type="button" className="btn btn-lg btn-books"
+	    			onClick={(e) => {
+      					e.preventDefault();
+      					window.location.href='https://books.greatlibrary.io/';
+      				}}
+	    		>View Books</button>
                     </div>
                 </div>
             </Container>
