@@ -19,7 +19,7 @@ const Header = () => {
               <Nav className="me-auto">
                   <Nav.Link href="https://ico.greatlibrary.io/" className="header-link">Culture Coin</Nav.Link>
                   <Nav.Link href="https://books.greatlibrary.io/" className="header-link">Books</Nav.Link>
-                  <Nav.Link href="#" className="header-link">Authors</Nav.Link>
+                  <Nav.Link href="https://author.greatlibrary.io/" className="header-link">Authors</Nav.Link>
                   <Nav.Link href="#" className="header-link">Contact Us</Nav.Link>
               </Nav>
               </Navbar.Collapse>
