@@ -29,7 +29,7 @@ function App() {
   }, [])
   return (
     <div className="App">
-      {loading && (
+      {/*loading && (
         <div
           style={{
             background: "#00000055",
@@ -40,7 +40,7 @@ function App() {
             top: 0,
           }}
         >
-          <LoadingOverlay
+	      {<LoadingOverlay
             active={true}
             spinner
             text="Loading ..."
@@ -53,9 +53,10 @@ function App() {
               }),
             }}
             fadeSpeed={9000}
-          ></LoadingOverlay>
+          ></LoadingOverlay> }
+
         </div>
-      )}
+      )*/}
       <Header />
       <ContentHeader />
       <Feature />
