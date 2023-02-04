@@ -17,10 +17,11 @@ const Header = () => {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                  <Nav.Link href="https://ico.greatlibrary.io/" className="header-link">Culture Coin</Nav.Link>
+                  <Nav.Link href="https://ico.greatlibrary.io/" className="header-link">ICO</Nav.Link>
                   <Nav.Link href="https://books.greatlibrary.io/" className="header-link">Books</Nav.Link>
                   <Nav.Link href="https://author.greatlibrary.io/" className="header-link">Authors</Nav.Link>
-                  <Nav.Link href="#" className="header-link">Contact Us</Nav.Link>
+                  <Nav.Link href="https://game.greatlibrary.io/" className="header-link">Game</Nav.Link>
+                  <Nav.Link href="mailto:johnrraymond@greatlibrary.io" className="header-link">Contact Us</Nav.Link>
               </Nav>
               </Navbar.Collapse>
           </Navbar>
