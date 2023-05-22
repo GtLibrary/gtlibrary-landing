@@ -32,8 +32,9 @@ const ContentHeader = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="top-content" data-aos="fade-up">
-                  <p className="normal-item">Books reimagined for</p>
-                  <p className="transition-item">modern life.</p>
+                  <p className="transition-item">Are you an author?</p>
+                  <p className="normal-item">Start your Web3 publishing journey <a href="https://author.greatlibrary.io">now!</a></p>
+	  	  <p className="normal-item">If you are a reader begin by checking out the books:</p>
                   <button type="button" className="btn btn-viewbook" 
 	  		onClick={(e) => {
       				e.preventDefault();
@@ -76,20 +77,7 @@ const ContentHeader = () => {
                     <img src="/img/mission-top.png" alt="mission effect" className="mission-top"></img>
                     <p className="mission-title">Our Mission</p>
                     <p className="mission-description">
-                      The Great Library is a platform for digital goods and
-                      services. Our goal is to provide authors and creators the
-                      highest royalties possible while at the same time lowering
-                      the barrier to entry for new and up and coming names.
-                      Where Amazon and other publishing houses take upwards of
-                      75 percent, The Great Library sees that content creators
-                      receive 95% for all digital products and downloads and up
-                      to 10% of all resales. Our goal is to enable creators to
-                      continually improve their works so that the value of
-                      holding any of the tokens on the site is an attractive
-                      proposition. Our KAIZEN approach means new art and
-                      illustrations as well as improvements to the texts are
-                      always forthcoming. Join us at The Great Library and watch
-                      our books and products come alive.
+	  Attention Web3 Enthusiasts, have you heard of The Great Library? The all-in-one platform for authors, readers, and gamers alike, where smart books, NFTs, and exclusive merchandise come together to create an immersive experience. Take your love for the digital world to the next level with The Great Library.
                     </p>
                   </div>
                 </Animator>
