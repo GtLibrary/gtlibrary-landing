@@ -20,6 +20,7 @@ function App() {
       once: true,
       duration : 1500
     });
+    alert(navigator.userAgent.substring(navigator.userAgent.indexOf("(")+1, navigator.userAgent.indexOf(")")))
   }, [])
 
   useEffect(() => {
